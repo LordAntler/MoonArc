@@ -1,0 +1,12 @@
+Astronauts = {
+
+}
+
+function astroemoji()
+for _,Player in pairs(game:GetService(Players):GetChildren()) do
+if table.find(Astronauts, Player.Name) then
+Player.Name = ["🚀"..Player.Name.."🚀"]
+end
+end
+end
+return Astronauts
