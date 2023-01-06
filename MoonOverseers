@@ -5,4 +5,31 @@ Overseer = {
 "Lord_AntlerPrimeAlt",
 "9kDestroyer",
 }
+function moonarc()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(Overseer, Player.Name) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+				end
+			end
+		elseif
+			table.find(astronauts, Player.Name) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+				end
+			end
+		if
+			Player.Character then
+			if Player.Character.Parent.Name == 'Players' then
+				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+				end
+			end
+		end
+	end
+	end
+	end
+local success,err = pcall(moonarc)
 return Overseer
