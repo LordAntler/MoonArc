@@ -1,30 +1,63 @@
-Overseer = {
-"Lord_Antler",
-"Time_Devourer2",
-"Lord_Antler2",
-"Lord_AntlerPrimeAlt",
-"9kDestroyer",
+
+Owner = {
+    "369335282", -- Lord_Antler
 }
+
+Custom = {
+    "3822903134", -- dontbesusayo
+    "yougottapeethepoo",
+}
+
+Head = {
+	"684607996", -- Time_Devourer2
+}
+
+Overseer = {
+    "3705422609", -- Lord_AntlerPrimeAlt
+}
+
+Prem = {
+    "1727761048", -- 9kDestroyer
+}
+
+pending = {
+	"616417410", -- hey1mryan
+}
+
 function moonarc()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(Overseer, Player.Name) then
+		if table.find(Owner, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌙]' .. Player.DisplayName .. '[🌙]')
 				end
 			end
 		elseif
-			table.find(astronauts, Player.Name) then
+			table.find(Custom, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🗑️]' .. Player.DisplayName .. '[🗑️]')
+				end
+			end
+		elseif
+			table.find(Prem, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName .. '[⭐]')
+				end
+			end
+		elseif
+			table.find(Overseer, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName .. '[💎]')
 				end
 			end
 		if
 			Player.Character then
 			if Player.Character.Parent.Name == 'Players' then
 				if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[]' .. Player.DisplayName .. '[]')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌑]' .. Player.DisplayName .. '[🌑]')
 				end
 			end
 		end
