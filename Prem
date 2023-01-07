@@ -5,7 +5,7 @@ Owner = {
 
 Custom = {
     "3822903134", -- dontbesusayo
-    "yougottapeethepoo",
+    "2469667617", -- yougottapeethepoo
 }
 
 Head = {
@@ -17,11 +17,12 @@ Overseer = {
 }
 
 Prem = {
+	"616417410", -- hey1mryan
     "1727761048", -- 9kDestroyer
 }
 
 pending = {
-	"616417410", -- hey1mryan
+	
 }
 
 function moonarc()
@@ -29,14 +30,7 @@ function moonarc()
 		if table.find(Owner, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌙]' .. Player.DisplayName .. '[🌙]')
-				end
-			end
-		elseif
-			table.find(Custom, Player.UserId) then
-			if Player.Character then
-				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🗑️]' .. Player.DisplayName .. '[🗑️]')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName .. '[💎]')
 				end
 			end
 		elseif
@@ -50,7 +44,14 @@ function moonarc()
 			table.find(Overseer, Player.UserId) then
 			if Player.Character then
 				if Player.Character.Parent.Name == 'Players' then
-					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName .. '[💎]')
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌟]' .. Player.DisplayName .. '[🌟]')
+				end
+			end
+		elseif
+			table.find(Head, Player.UserId) then
+			if Player.Character then
+				if Player.Character.Parent.Name == 'Players' then
+					Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👑]' .. Player.DisplayName .. '[👑]')
 				end
 			end
 		if
