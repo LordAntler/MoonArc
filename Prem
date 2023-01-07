@@ -1,4 +1,9 @@
 
+Prem = {
+	"616417410", -- hey1mryan
+    "1727761048", -- 9kDestroyer
+}
+
 Owner = {
     "369335282", -- Lord_Antler
 }
@@ -14,11 +19,6 @@ Head = {
 
 Overseer = {
     "3705422609", -- Lord_AntlerPrimeAlt
-}
-
-Prem = {
-	"616417410", -- hey1mryan
-    "1727761048", -- 9kDestroyer
 }
 
 pending = {
@@ -66,9 +66,4 @@ function moonarc()
 	end
 	end
 local success,err = pcall(moonarc)
-return Overseer
-return Custom
 return Prem
-return pending
-return Head
-return Owner
