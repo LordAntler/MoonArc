@@ -6,7 +6,7 @@ overseers = {
 	"STARPLATIUMOVAHEAVAN",
 }
 
-function moonarc()
+function heademoji()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(overseers, Player.Name) then
 			if not Player.Character.Head:FindFirstChild("OriginalSize") then
@@ -15,5 +15,5 @@ function moonarc()
 		end
     end
 end
-local s,e = pcall(moonarc)
+local s,e = pcall(heademoji)
 return overseers
