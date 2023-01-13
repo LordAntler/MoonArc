@@ -6,7 +6,7 @@ function moonmins()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
 		if table.find(moonmins, Player.UserId) then
 			if not Player.Character.Head:FindFirstChild("OriginalSize") then
-				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👼]' .. Player.DisplayName .. '[👼]')
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ("[👼]" .. Player.DisplayName .. "[👼]")
 	    	end
 		end
     end
