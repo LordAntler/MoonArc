@@ -7,7 +7,7 @@ Prem = {
 
 function moonarc()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(PremCheck, Player.Name) then
+		if table.find(Prem, Player.Name) then
 			Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName .. '[💎]')
 	    end
     end
