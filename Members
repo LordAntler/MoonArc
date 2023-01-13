@@ -1,17 +1,18 @@
 
-premium =
-moonarcadmin =
-moonarcheadadmin =
-moonarcowner =
-finishedmessage = "Everything is loaded!"
+premium = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Prem"))()
+moonarcadmin = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Admins"))()
+moonarcheadadmin = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/HeadAdmins"))()
+moonarcowner = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Owner"))()
+blacklisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Blacklisted"))()
+finishedmessage = "Everything has finished loading. Enjoy MoonArc and have fun."
 
 function moonarcnames()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if not table.find(premium, Player.UserId) then
+		if not table.find(premium, Player.UserId) and not table.find(moonarcadmin, Player.UserId) and not table.find(moonarcheadadmin, Player.UserId) and not table.find(moonarcowner, Player.UserId) and not table.find(blacklisted, Player.UserId) then
 			if not Player.Character.Head:FindFirstChild("OriginalSize") then
-				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💩]' .. Player.DisplayName .. '[💩]')
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🌑]' .. Player.DisplayName .. '[🌑]')
 	    	end
-		lend
+		end
     end
 end
 local s,e = pcall(moonarcnames)
