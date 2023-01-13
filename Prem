@@ -1,7 +1,7 @@
 
 Prem = {
 	"hey1mryan", -- hey1mryan
-    "9kDestroyer", -- 9kDestroyer
+    	"9kDestroyer", -- 9kDestroyer
 }
 
 return Prem
