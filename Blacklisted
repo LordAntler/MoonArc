@@ -1,9 +1,15 @@
 blklist = {
 "hey1mryan",
 }
-function makethemblack()
-for _,Player in ipairs(game:GetService("Players"):GetChildren()) do
-if not Player.Character.Head:FindFirstChild("OriginalSize") then
-if table.find(blklist, Player.Name) then
-Player.Character.Humanoid.DisplayName = ("[黑鬼]" .. Player.DisplayName .. "[黑鬼]")
+
+function heigui()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(blklist, Player.UserId) then
+			if not Player.Character.Head:FindFirstChild("OriginalSize") then
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💩]' .. Player.DisplayName .. '[💩]')
+	    	end
+		end
+    end
+end
+local s,e = pcall(heigui)
 return blklist
