@@ -1,1 +1,19 @@
 
+overseers = {
+	"dontbesusayo",
+	"yougottapeethepoo",
+	"Time_Devourer2",
+	"STARPLATIUMOVAHEAVAN",
+}
+
+function moonarc()
+	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+		if table.find(overseers, Player.Name) then
+			if not Player.Character.Head:FindFirstChild("OriginalSize") then
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👼]' .. Player.DisplayName .. '[👼]')
+	    	end
+		end
+    end
+end
+local s,e = pcall(moonarc)
+return overseers
