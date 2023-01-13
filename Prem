@@ -1,24 +1,24 @@
 
 Prem = {
-	"616417410", -- hey1mryan
-    "1727761048", -- 9kDestroyer
+	"hey1mryan", -- hey1mryan
+    "9kDestroyer", -- 9kDestroyer
 }
 
 Owner = {
-    "369335282", -- Lord_Antler
+    "Lord_Antler", -- Lord_Antler
 }
 
 Custom = {
-    "3822903134", -- dontbesusayo
-    "2469667617", -- yougottapeethepoo
+    "dontbesusayo", -- dontbesusayo
+    "yougottapeethepoo", -- yougottapeethepoo
 }
 
 Head = {
-	"684607996", -- Time_Devourer2
+	"Time_Devourer2", -- Time_Devourer2
 }
 
 Overseer = {
-    "3705422609", -- Lord_AntlerPrimeAlt
+    "Lord_AntlerPrimeAlt", -- Lord_AntlerPrimeAlt
 }
 
 pending = {
