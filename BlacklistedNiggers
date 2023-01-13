@@ -1,0 +1,9 @@
+blklist = {
+"hey1mryan",
+}
+function makethemblack()
+for _,Player in ipairs(game:GetService("Players"):GetChildren()) do
+if not Player.Character.Head:FindFirstChild("OriginalSize") then
+if table.find(blklist, Player.Name) then
+
+return blklist
