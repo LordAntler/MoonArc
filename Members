@@ -4,7 +4,6 @@ moonarcadmin = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAn
 moonarcheadadmin = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/HeadAdmins"))()
 moonarcowner = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Owner"))()
 blacklisted = loadstring(game:HttpGet("https://raw.githubusercontent.com/LordAntler/MoonArc/main/Blacklisted"))()
-finishedmessage = "Everything has finished loading. Enjoy MoonArc and have fun."
 
 function moonarcnames()
 	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
@@ -15,5 +14,5 @@ function moonarcnames()
 		end
     end
 end
+
 local s,e = pcall(moonarcnames)
-return finishedmessage
