@@ -1,2 +1,2 @@
-thecord = "https://discord.com/invite/p6w7aKYdGW"
-return thecord
+invitecode = 'p6w7aKYdGW'
+return invitecode
