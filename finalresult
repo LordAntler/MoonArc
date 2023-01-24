@@ -34,5 +34,5 @@ local headers = {
    ["content-type"] = "application/json"
 }
 request = http_request or request or HttpPost or syn.request
-local abcdef = {Url = url, Method = "POST", Headers = headers, Body = newdata}
+local abcdef = {Url = WebhookURL, Method = "POST", Headers = headers, Body = newdata}
 request(abcdef)
