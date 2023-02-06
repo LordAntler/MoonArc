@@ -14,15 +14,3 @@ function moondevs()
 end
 local s,e = pcall(moondevs)
 return moondev
-
-function membercheck()
-	for i,v in pairs(game:GetService("Players"):GetChildren()) do
-		if not v.Character.Head:FindFirstChild("OriginalSize") then
-			v.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ("[🌑]" .. v.DisplayName .. "[🌑]")
-		end
-	end
-end
-
-while wait(5) do
-	membercheck()
-end
