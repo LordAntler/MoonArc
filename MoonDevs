@@ -3,15 +3,4 @@ moondev = {
 369335282,
 2469667617,
 }
-
-function moondevs()
-	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(moonmins, Player.UserId) then
-			if not Player.Character.LeftFoot:FindFirstChild("OriginalSize") then
-				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ("[👑]" .. Player.DisplayName .. "[👑]")
-	    	end
-		end
-    end
-end
-local s,e = pcall(moondevs)
 return moondev
