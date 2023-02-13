@@ -1,15 +1,4 @@
 
 Prem = {
 }
-
-function Prems()
-	for _,Player in pairs(game:GetService('Players'):GetChildren()) do
-		if table.find(Prem, Player.UserId) then
-			if not Player.Character.Head:FindFirstChild("OriginalSize") then
-				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ("[🌠]" .. Player.DisplayName .. "[🌠]")
-	    	end
-		end
-    end
-end
-local s,e = pcall(Prems)
 return Prem
