@@ -1,1 +1,18 @@
+--[[
+This script has been licensed using Luarmor.
+
+Unauthorized distribution of this script is forbidden.
+
+Any attempts at tampering, reverse engineering or modifying this script's
+internal logic will result in a global ban, and make you blacklisted from
+every single script that has been licensed with Luarmor.
+---
+Luarmor v3.3a for Roblox, #1 lua whitelisting system by Federal#9999
+https://luarmor.net/
+      __  __                      _             
+     |  \/  | ___   ___  _ __    / \   _ __ ___ 
+     | |\/| |/ _ \ / _ \| '_ \  / _ \ | '__/ __|
+     | |  | | (_) | (_) | | | |/ ___ \| | | (__ 
+     |_|  |_|\___/ \___/|_| |_/_/   \_\_|  \___|
+]]
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9f3f554ef3ab24a93e5e1bdd8e41ec4d.lua"))()
