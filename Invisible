@@ -9,10 +9,10 @@ every single script that has been licensed with Luarmor.
 ---
 Luarmor v3.3a for Roblox, #1 lua whitelisting system by Federal#9999
 https://luarmor.net/
-      __  __                      _             
-     |  \/  | ___   ___  _ __    / \   _ __ ___ 
-     | |\/| |/ _ \ / _ \| '_ \  / _ \ | '__/ __|
-     | |  | | (_) | (_) | | | |/ ___ \| | | (__ 
-     |_|  |_|\___/ \___/|_| |_/_/   \_\_|  \___|
+      ____  _   _ ___            _     _ _     _      
+     |  _ \| | | |_ _|_ ____   _(_)___(_) |__ | | ___ 
+     | | | | |_| || || '_ \ \ / / / __| | '_ \| |/ _ \
+     | |_| |  _  || || | | \ V /| \__ \ | |_) | |  __/
+     |____/|_| |_|___|_| |_|\_/ |_|___/_|_.__/|_|\___|
 ]]
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9f3f554ef3ab24a93e5e1bdd8e41ec4d.lua"))()
