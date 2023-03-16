@@ -16,4 +16,4 @@ https://luarmor.net/
      |_|  |_|\___/ \___/|_| |_/_/   \_\_|  \___|
 ]]
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/f090492ec308bcdb90d6629a490589a2.lua"))()
+loadstring(game:HttpGet('https://scripts.luawl.com/hosted/4100/MoonArc.lua'))()
